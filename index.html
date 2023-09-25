@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!--========== Titulo ==========-->
+    <title>Programadores</title>
+
+   
+    
+    
+    <meta property="og:site_name" content="CodeInspire" />
+    <meta property="og:title" content="" />
+    <meta
+      property="og:description"
+      
+  
+    />
+   
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/Thiagoow/UberEats-Responsive-LandingPage/master/assets/img/ThumbnailLinkImg.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/jpeg" />
+    
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:url" content="https://eats-uber.netlify.app" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrollTop show-scroll" id="scroll-top">
+      <i class="bx bx-chevron-up scrollTop_icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="/" class="nav_logo">
+          <b>
+            CODE
+            <span>Inspire</span>
+          </b>
+        </a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">Sobre Nós</a>
+            </li>
+            <li class="nav_item">
+              <a href="#services" class="nav_link">Pra que serve?</a>
+            </li>
+            <li class="nav_item">
+              <a href="#foods" class="nav_link">Linguagens</a>
+            </li>
+            <li class="hidden_item">
+              <a href="#app" class="nav_link">App</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Contate-nos</a>
+            </li>
+
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+  
+          <button
+            class="menu"
+            aria-label="Abrir Menu"
+            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          >
+            <svg width="40" height="41" viewBox="0 0 100 100">
+              <path
+                class="line line1"
+                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+              />
+              <path class="line line2" d="M 20,50 H 80" />
+              <path
+                class="line line3"
+                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--========== HOME ==========-->
+      <section class="home" id="home">
+        <div class="home_container bd-container bd-grid">
+          <div class="home_data">
+            <h1 class="home_title">CodeInspire</h1>
+            <h2 class="home_subtitle">Encontre inspiração para suas jornadas de programação. </h2>
+            <a href="#foods" class="button">Ver Agora</a>
+          </div>
+
+          <img
+            src="istockphoto-1356364287-612x612-modified.png"
+            
+            class="about_img"
+          />
+        </div>
+      </section>
+
+      <!--========== ABOUT ==========-->
+      <section class="about section bd-container" id="about">
+        <div class="about_container bd-grid">
+          <div class="about_data">
+            <span class="section-subtitle about_initial">Nossa Missão:</span>
+            <h2 class="section-title about_initial">
+              Formar programadores
+            </h2>
+            <p class="about_description">
+              Empoderar programadores de todos os níveis a superar desafios, atingir objetivos ambiciosos e transformar ideias em realidade.
+            </p>
+            <a href="#app" class="button">Gostou? Veja agora!</a>
+          </div>
+
+          <img
+            src="dia-do-programador.blog_-modified.png"
+            
+            class="about_img"
+          />
+        </div>
+      </section>
+
+     
+      <section class="services section bd-container" id="services">
+        <span class="section-subtitle">Uma oportunidade</span>
+        <h2 class="section-title">O que fazemos de melhor</h2>
+
+        <div class="services_container bd-grid">
+          <div class="services_content">
+            
+
+            <h3 class="services_title">Histórias de Sucesso Empolgantes</h3 class="maior">
+            <p class="services_description">
+              Conheça Sarah, uma programadora autodidata que começou a codificar aos 14 anos. Após enfrentar desafios significativos, ela desenvolveu um aplicativo inovador que revolucionou a indústria de saúde digital, impactando milhões de vidas.
+            </p>
+          </div>
+
+          <div class="services_content">
+            
+
+            <h3 class="services_title">Recursos Essenciais</h3 class="maior">
+            <p class="services_description">
+              Ferramentas como Visual Studio Code, cursos online em plataformas como Coursera e Udemy, tutoriais sobre algoritmos e estruturas de dados, e comunidades como Stack Overflow e Reddit r/programming, onde programadores podem obter suporte e compartilhar conhecimento.
+            </p>
+          </div>
+
+          <div class="services_content">
+            
+
+            <h3 class="services_title">Desafios para Afinar suas Habilidades</h3 class="maior">
+            <p class="services_description">
+              Desafio de Programação de Algoritmos: Dado um conjunto de números, escreva um algoritmo para encontrar o maior valor. Este desafio incentiva os programadores a aplicar conceitos de lógica e algoritmos para resolver um problema específico.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--========== FOODS ==========-->
+      <section class="foods section bd-container" id="foods">
+        <span class="section-subtitle">Como foi feito esse site?</span>
+        <h2 class="section-title">Linguagens</h2>
+
+        <div class="foods_container bd-grid">
+          <div class="foods_content">
+            <img src="assets/img/plate1.png" alt="" class="foods_img" />
+            <h3 class="foods_name">JavaScript</h3>
+            <span class="foods_detail"> O JS é Uma linguagem de programação muito usada</span>
+            <span class="foods_price"></span>
+
+           
+          </div>
+
+          <div class="foods_content">
+            <img src="assets/img/plate2.png" alt="" class="foods_img" />
+            <h3 class="foods_name">HTML5</h3>
+            <span class="foods_detail">O HTML5 é Uma linguagem de marcação</span>
+            <span class="foods_price"></span>
+
+           
+          </div>
+
+          <div class="foods_content">
+            <img src="assets/img/plate3.png" alt="" class="foods_img" />
+            <h3 class="foods_name">CSS3</h3>
+            <span class="foods_detail">As CSS3 Controlam o layout e o estilo de elementos em uma página da web</span>
+            <span class="foods_price"></span>
+
+           
+          </div>
+        </div>
+      </section>
+
+      <!--===== APP =======-->
+      <section class="app section bd-container" id="app">
+        <div class="app_container bd-grid">
+          <div class="app_data">
+            <span class="section-subtitle app_initial">Comece agora!</span>
+            <h2 class="section-title app_initial"></h2>
+            <p class="app_description">
+              Junte-se a nós em nossa missão de impulsionar a inovação e criar um mundo melhor através da programação.
+            </p>
+            <div class="app_stores">
+              <a href="#"
+                ><img
+                  src=""
+                  alt=""
+                  class="app_store"
+              /></a>
+              <a href="#"
+                ><img
+                  src="assets/img/appStoreDownload.svg"
+                  alt=""
+                  class="app_store"
+              /></a>
+            </div>
+          </div>
+
+          <img src="aaaa.png" alt="" class="app_img" />
+        </div>
+      </section>
+
+    
+
+        </div>
+      </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+      <div class="footer_container bd-grid">
+        <div class="footer_content">
+          <b class="footer_logo">
+            CODE
+            <span>Inspire</span>
+          </b>
+
+          
+
+          <div>
+            <a href="#" class="footer_social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#" class="footer_social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="#" class="footer_social"><i class="bx bxl-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Informações</h3>
+          <ul>
+            <li><a href="#" class="footer_link">Eventos</a></li>
+            <li><a href="#" class="footer_link">Política de Privacidade</a></li>
+            <li><a href="#" class="footer_link">Termos de serviço</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Endereço</h3>
+          <ul>
+          
+          </ul>
+        </div>
+
+        <div class="footer_content">
+          <h3 class="footer_title">Navegação</h3>
+          <ul>
+            <li><a href="#app" class="footer_link">Começar agora</a></li>
+            <li><a href="#contact" class="footer_link">Contate-nos</a></li>
+            
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer_copy">
+        &#169; 201
+        <a
+          
+          class="footer_link"
+          target="_blank"
+        >
+          
+        </a>
+      </p>
+    </footer>
+
+    <!--========== SCROLL REVEAL LIBRARY ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
